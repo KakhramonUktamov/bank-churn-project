@@ -23,8 +23,10 @@ bank_churn:
 
 Run with Docker - build the image (commands):
 - docker build -t churn-api .
+
 Run the container:
 - docker run -p 8000:8000 churn-api
+
 Visit the API docs:
 - http://localhost:8000/docs
 - Example Request (POST /predict)
@@ -55,3 +57,4 @@ Notes:
 Preprocessing for inference is minimal and defined in preprocess.py
 
 The API requires all input fields defined in schemas.py
+
