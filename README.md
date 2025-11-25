@@ -53,4 +53,5 @@ Notes:
 - Columns ID and ID_клиента were excluded because they contain no predictive information and would not be available in real API requests.
 - CatBoost handles categorical features and missing values internally
 Preprocessing for inference is minimal and defined in preprocess.py
+
 The API requires all input fields defined in schemas.py
